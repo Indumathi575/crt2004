@@ -1,3 +1,4 @@
+Read a code and print exact character for given code
 int main()
 {
 int a=100;

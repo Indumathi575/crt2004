@@ -1,3 +1,4 @@
+Read two numbers and print 1 for addition, 2 for subtraction,3 for multiplication and 4 for division
 #include <stdio.h>
 
 int main() {

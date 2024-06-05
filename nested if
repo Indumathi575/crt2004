@@ -1,3 +1,4 @@
+write a program using Nested-if
 #include <stdio.h>
 
 int main() {

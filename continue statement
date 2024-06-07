@@ -1,0 +1,30 @@
+write a program using continue statement
+source code:
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int i;
+    for(i=1;i<=5;i++)
+    {
+        printf("%d\n",i);
+        if(i%2==0)
+        continue;
+        printf("Python\n");
+        printf("Java\n");
+    }
+
+    return 0;
+}
+output:
+1
+Pyton
+Java
+2
+3
+Pyton
+Java
+4
+5
+Pyton
+Java

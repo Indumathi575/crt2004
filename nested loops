@@ -1,0 +1,24 @@
+write a program using Nested loops
+source code:
+#include <stdio.h>
+
+int main() {
+    // Write C code
+    int i,j;
+    for(i=1;i<=5;i++)
+    {
+        for(j=1;j<=5;j++)
+        {
+            printf("%d ",j);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+output:
+1 2 3 4 5 
+1 2 3 4 5 
+1 2 3 4 5 
+1 2 3 4 5 
+1 2 3 4 5 

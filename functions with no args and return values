@@ -1,0 +1,22 @@
+write a program using function
+source code:
+#include <stdio.h>
+
+
+    // Write C code here
+    void area()
+    {
+        int l,b;
+        scanf("%d%d",&l,&b);
+        int r=l*b;
+        printf("%d",r);
+    }
+    int main()
+    {
+        area();
+    return 0;
+}
+output:
+2
+3
+6

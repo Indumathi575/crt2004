@@ -1,0 +1,27 @@
+program using functions biggest of 3 numbers
+source code:
+#include <stdio.h>
+
+
+    // Write C code here
+    void area()
+    {
+        int a,b,c;
+        scanf("%d%d%d",&a,&b,&c);
+        if(a>b && a>c)
+        printf("%d",a);
+        else if(b>c)
+        printf("%d",b);
+        else
+        printf("%d",c);
+    }
+    int main()
+    {
+        area();
+    return 0;
+}
+output:
+2
+3
+80
+80

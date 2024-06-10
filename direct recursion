@@ -1,0 +1,73 @@
+write a program using tail recursion
+source code:
+#include <stdio.h>
+void fun(int n)
+{
+    if(n>=1)
+    {
+        printf("%d ",n);
+        fun(n-1);
+    }
+}
+int main() {
+    // Write C code here
+    int n;
+    scanf("%d",&n);
+    fun(n);
+
+    return 0;
+}
+output:
+3
+3 2 1
+
+
+head version
+source code:
+#include <stdio.h>
+void fun(int n)
+{
+    if(n>=1)
+    {
+        fun(n-1);
+        printf("%d ",n);
+        
+    }
+}
+int main() {
+    // Write C code here
+    int n;
+    scanf("%d",&n);
+    fun(n);
+
+    return 0;
+}
+output:
+3
+1 2 3
+
+
+tree recurion:
+source code:
+#include <stdio.h>
+void fun(int n)
+{
+    if(n>=1)
+    {
+        
+        printf("%d ",n);
+        fun(n-1);
+        fun(n-1);
+    }
+}
+int main() {
+    // Write C code here
+    int n;
+    scanf("%d",&n);
+    fun(n);
+
+    return 0;
+}
+output:
+3
+3 2 1 1 2 1 1
